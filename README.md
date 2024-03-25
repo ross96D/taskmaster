@@ -1,6 +1,6 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/b3gllq093c8ex5ew?svg=true)](https://ci.appveyor.com/project/capnspacehook/taskmaster)
-[![Go Report Card](https://goreportcard.com/badge/github.com/capnspacehook/taskmaster)](https://goreportcard.com/report/github.com/capnspacehook/taskmaster)
-[![PkgGoDev](https://pkg.go.dev/badge/github.com/capnspacehook/taskmaster)](https://pkg.go.dev/github.com/capnspacehook/taskmaster)
+[![Go Report Card](https://goreportcard.com/badge/github.com/ross96D/taskmaster)](https://goreportcard.com/report/github.com/ross96D/taskmaster)
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/ross96D/taskmaster)](https://pkg.go.dev/github.com/ross96D/taskmaster)
 
 # taskmaster
 Windows Task Scheduler Library for Go
