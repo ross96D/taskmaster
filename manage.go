@@ -1,3 +1,4 @@
+//go:build windows
 // +build windows
 
 package taskmaster
@@ -130,7 +131,7 @@ func (t *TaskService) Disconnect() {
 func (t *TaskService) GetRunningTasks() (RunningTaskCollection, error) {
 	var runningTasks RunningTaskCollection
 
-	res, err := oleutil.CallMethod(t.taskServiceObj, "GetRunningTasks", TASK_ENUM_HIDDEN)
+	res, err := oleutil.CallMethod(t.taskServiceObj, "GetRunningTasks", int(TASK_ENUM_HIDDEN))
 	if err != nil {
 		return nil, fmt.Errorf("error getting running tasks: %v", getTaskSchedulerError(err))
 	}
